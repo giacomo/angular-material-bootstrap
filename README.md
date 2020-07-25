@@ -1,6 +1,14 @@
-# AngularMaterial + Bootstrap
+# Angular + Material + Bootstrap
+
+
+## Version
+| Package          | Version |
+|------------------|---------|
+|Angular/Material  |10+      |
+|Bootstrap         |4.5+     |
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
 It combines Angular Material and Bootstrap 4.
 Angular Material is a great UI component library but does not have some important features like a layout system, a CSS reset, and some CSS utilities. 
 Fortunately we can very easily integrate those features from Bootstrap 4. 
