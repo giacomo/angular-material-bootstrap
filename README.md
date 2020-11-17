@@ -4,7 +4,7 @@
 ## Version
 | Package          | Version |
 |------------------|---------|
-|Angular/Material  |10+      |
+|Angular/Material  |11+      |
 |Bootstrap         |4.5+     |
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
