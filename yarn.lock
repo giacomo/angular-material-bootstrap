@@ -140,6 +140,11 @@
   resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-16.0.1.tgz#a1706204e2b5a06355f71c2465a79f4ded05771e"
   integrity sha512-amvTgKHtZoygivW3LAYZ9qjLWsXM7/7eaRvaHdmAEdjyFnYQZ7UbWMPSQNz1mlW/AzTFvk9lGGQORglNOSDnww==
 
+"@angular-eslint/bundled-angular-compiler@16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/bundled-angular-compiler/-/bundled-angular-compiler-16.0.2.tgz#1023081c6d81be4d2fabe2bcbcbbe14335096cff"
+  integrity sha512-gsk3FZ0SfoKs+RZBOXlwy6hItV4hZ19wYC8rXINNBRy4L7y3gdg3sN8lnYIGLmhEy+VRz3vdH2cdl8/PyEjpfA==
+
 "@angular-eslint/eslint-plugin-template@16.0.1":
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin-template/-/eslint-plugin-template-16.0.1.tgz#304af27fb7621584a4943c80d8103e4d82fc1646"
@@ -158,6 +163,14 @@
   integrity sha512-CM9keS9cH1QAfSVfsvhw/oGCZcP/D8gfekWwVNjN/uEMEAak0czn1KOG7JQkE36NXOGtwCpTspMi1aa9CVKo9g==
   dependencies:
     "@angular-eslint/utils" "16.0.1"
+    "@typescript-eslint/utils" "5.59.2"
+
+"@angular-eslint/eslint-plugin@16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/eslint-plugin/-/eslint-plugin-16.0.2.tgz#381a51ffd5027b1de64736bf818d2de32e5e4207"
+  integrity sha512-8m0BsDAN0fHCszDYaDDOyhuWySG1pAZJNfIg4HLQEVwqWMDdo/e9ZcxcEOkDoywg8bmZ/YO+7Au62e/diJVQNQ==
+  dependencies:
+    "@angular-eslint/utils" "16.0.2"
     "@typescript-eslint/utils" "5.59.2"
 
 "@angular-eslint/schematics@16.0.1":
@@ -187,6 +200,14 @@
   integrity sha512-2xnJuhIrMZEYK6UyBym6FaFXZgopIIbqfQ4sAtMWY6zYkCEsVUvx5qKIrsnXAwvpDQrv0WiMXteqi/5ICpVMZQ==
   dependencies:
     "@angular-eslint/bundled-angular-compiler" "16.0.1"
+    "@typescript-eslint/utils" "5.59.2"
+
+"@angular-eslint/utils@16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@angular-eslint/utils/-/utils-16.0.2.tgz#f1535e121a00ed4471189b80de1e7c43e2a998d0"
+  integrity sha512-QZJXxjTn4of5f1D6QbLK1YUoQr7PAh2RYwQ4tdH7fX71OhEG/s8GLiB1w4GC29jQYZdEJeb9M8BFa7zll0vJEg==
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler" "16.0.2"
     "@typescript-eslint/utils" "5.59.2"
 
 "@angular/animations@^16.0.0":
