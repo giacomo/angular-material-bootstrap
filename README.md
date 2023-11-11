@@ -2,11 +2,11 @@
 
 
 ## Version
-| Package          | Version |
-|------------------|---------|
-| Angular/Material | 17+     |
-| Bootstrap        | 5+      |
-| Angular Builder  | ES      |
+| Package          | Version   |
+|------------------|-----------|
+| Angular/Material | 17+       |
+| Bootstrap        | 5+        |
+| Angular Builder  | esbuilder |
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
