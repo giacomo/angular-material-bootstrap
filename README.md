@@ -4,12 +4,13 @@
 ## Version
 | Package          | Version |
 |------------------|---------|
-|Angular/Material  | 16+     |
-|Bootstrap         | 5+      |
+| Angular/Material | 17+     |
+| Bootstrap        | 5+      |
+| Angular Builder  | ES      |
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
-It combines Angular Material and Bootstrap 4.
+It combines the latest version of Angular Material and Bootstrap 5.
 Angular Material is a great UI component library but does not have some important features like a layout system, a CSS reset, and some CSS utilities. 
 Fortunately we can very easily integrate those features from Bootstrap 4. 
 
