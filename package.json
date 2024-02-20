@@ -41,7 +41,7 @@
     "@types/jasminewd2": "^2.0.13",
     "@types/node": "^20.11.19",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.2",
     "eslint": "^8.56.0",
     "jasmine-core": "^5.1.2",
     "jasmine-spec-reporter": "^7.0.0",
