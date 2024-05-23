@@ -25,7 +25,7 @@
     "lodash": "^4.17.21",
     "rxjs": "^7.8.1",
     "tslib": "^2.6.2",
-    "zone.js": "^0.14.4"
+    "zone.js": "^0.14.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
@@ -40,14 +40,14 @@
     "@types/jasmine": "^5.1.4",
     "@types/jasminewd2": "^2.0.13",
     "@types/node": "^20.12.12",
-    "@typescript-eslint/eslint-plugin": "^7.7.1",
-    "@typescript-eslint/parser": "^7.7.1",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^9.3.0",
     "jasmine-core": "^5.1.2",
     "jasmine-spec-reporter": "^7.0.0",
     "karma": "^6.4.3",
     "karma-chrome-launcher": "^3.2.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "^5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
     "protractor": "~7.0.0",
