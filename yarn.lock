@@ -9920,7 +9920,7 @@ __metadata:
     ts-node: "npm:^10.9.2"
     tslib: "npm:^2.6.2"
     typescript: "npm:^5.4.5"
-    zone.js: "npm:^0.14.4"
+    zone.js: "npm:^0.14.6"
   languageName: unknown
   linkType: soft
 
@@ -13967,11 +13967,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:^0.14.4":
-  version: 0.14.4
-  resolution: "zone.js@npm:0.14.4"
-  dependencies:
-    tslib: "npm:^2.3.0"
-  checksum: 10c0/141a30b43e70a76123e4b71fc7a7cd3b449e1550099e401d875f43b21fc4d178b219cff2c515dd0f2da739ff4baa837f369b285f1128dc2686ca2b480a90c594
+"zone.js@npm:^0.14.6":
+  version: 0.14.6
+  resolution: "zone.js@npm:0.14.6"
+  checksum: 10c0/dc138197428b7d5c5bc6119dc94748f700426a340c41fc6ebf5fe3fa7ff302fa970350c44719f644020a82caabf9fc761003af285c7707192c77bcc312bfd264
   languageName: node
   linkType: hard
