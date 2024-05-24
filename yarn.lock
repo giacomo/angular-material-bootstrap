@@ -42,6 +42,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/architect@npm:0.1800.1":
+  version: 0.1800.1
+  resolution: "@angular-devkit/architect@npm:0.1800.1"
+  dependencies:
+    "@angular-devkit/core": "npm:18.0.1"
+    rxjs: "npm:7.8.1"
+  checksum: 10c0/6943f8eb36bb72d84d4261f8041e5ee7c43b54a259daa9b9256932fae54a6cc8e6465df6dd9b67346681c4c36336f29daddac748b3e7c26f50106bc3330216e3
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/build-angular@npm:^18.0.0":
   version: 18.0.0
   resolution: "@angular-devkit/build-angular@npm:18.0.0"
@@ -187,16 +197,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/schematics@npm:18.0.0":
-  version: 18.0.0
-  resolution: "@angular-devkit/schematics@npm:18.0.0"
+"@angular-devkit/core@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@angular-devkit/core@npm:18.0.1"
   dependencies:
-    "@angular-devkit/core": "npm:18.0.0"
+    ajv: "npm:8.13.0"
+    ajv-formats: "npm:3.0.1"
+    jsonc-parser: "npm:3.2.1"
+    picomatch: "npm:4.0.2"
+    rxjs: "npm:7.8.1"
+    source-map: "npm:0.7.4"
+  peerDependencies:
+    chokidar: ^3.5.2
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  checksum: 10c0/df2d4f287f24d65beac1cca4ae6443d0a0c97e1cff61942c9e55d7ce6b4aad5984c4a1227637b3ca35b534608d468243f25800642eaff5ed9f2d7c93c5d3a58d
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@angular-devkit/schematics@npm:18.0.1"
+  dependencies:
+    "@angular-devkit/core": "npm:18.0.1"
     jsonc-parser: "npm:3.2.1"
     magic-string: "npm:0.30.10"
     ora: "npm:5.4.1"
     rxjs: "npm:7.8.1"
-  checksum: 10c0/f3d8b4916c0a92353ddfc6519ce534c06c9a04409f76b688817c808e88234a529d001b409647918a7be9b49efe6b6b0a00ee86563d9875b6af7d7354d141bdf7
+  checksum: 10c0/f0de6c8839679e605767f28b8cdfc8eea003fbe0f3a43221b868cd4cc5deee5d2ebeb47f6645989e2dc088fbda26a297a623473ea07da4e6a10f0c7a234e42d8
   languageName: node
   linkType: hard
 
@@ -377,14 +406,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "@angular/cli@npm:18.0.0"
+"@angular/cli@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "@angular/cli@npm:18.0.1"
   dependencies:
-    "@angular-devkit/architect": "npm:0.1800.0"
-    "@angular-devkit/core": "npm:18.0.0"
-    "@angular-devkit/schematics": "npm:18.0.0"
-    "@schematics/angular": "npm:18.0.0"
+    "@angular-devkit/architect": "npm:0.1800.1"
+    "@angular-devkit/core": "npm:18.0.1"
+    "@angular-devkit/schematics": "npm:18.0.1"
+    "@schematics/angular": "npm:18.0.1"
     "@yarnpkg/lockfile": "npm:1.1.0"
     ansi-colors: "npm:4.1.3"
     ini: "npm:4.1.2"
@@ -400,7 +429,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     ng: bin/ng.js
-  checksum: 10c0/cd90f0f0f355d573e5552270f2b977464d11e13e0417426a6c67b85853d6ee972fc9dd3a0928d34d80e2cd72073c23476b297c958d06381565093c78157f56cc
+  checksum: 10c0/7775ee359e398601ed92a438b9805e58a4577eaa62cb6ac1c5356c30d5d052e5906d18dddaa793bada84f7dd031b6ec8f74e3a30b7601861b1f976723c77c32d
   languageName: node
   linkType: hard
 
@@ -4382,14 +4411,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/angular@npm:18.0.0":
-  version: 18.0.0
-  resolution: "@schematics/angular@npm:18.0.0"
+"@schematics/angular@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@schematics/angular@npm:18.0.1"
   dependencies:
-    "@angular-devkit/core": "npm:18.0.0"
-    "@angular-devkit/schematics": "npm:18.0.0"
+    "@angular-devkit/core": "npm:18.0.1"
+    "@angular-devkit/schematics": "npm:18.0.1"
     jsonc-parser: "npm:3.2.1"
-  checksum: 10c0/e5b817dd63f92e7df210cb2b2084a13fa0baf83a4e5f01be8967a175eb36530b51ca5ad2ea60fb1cbb4d915f97042f4ffab51e9b96525e3c2e03a5c477026b74
+  checksum: 10c0/80c9581a84c905aff7754af83ee7e3cdc125dc4f6c813567d4e0480cb7d76c9018f6ae771a6933e22c79b6e83c0fa482a1cb976efbcb9e76ff9fd21c9489d15e
   languageName: node
   linkType: hard
 
@@ -9799,7 +9828,7 @@ __metadata:
     "@angular-eslint/template-parser": "npm:18.0.0-alpha.0"
     "@angular/animations": "npm:^18.0.0"
     "@angular/cdk": "npm:^18.0.0"
-    "@angular/cli": "npm:^18.0.0"
+    "@angular/cli": "npm:^18.0.1"
     "@angular/common": "npm:^18.0.0"
     "@angular/compiler": "npm:^18.0.0"
     "@angular/compiler-cli": "npm:^18.0.0"
