@@ -200,16 +200,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/builder@npm:^18.0.0-alpha.1":
-  version: 18.0.0-alpha.1
-  resolution: "@angular-eslint/builder@npm:18.0.0-alpha.1"
+"@angular-eslint/builder@npm:^18.0.0-alpha.16":
+  version: 18.0.0-alpha.16
+  resolution: "@angular-eslint/builder@npm:18.0.0-alpha.16"
   dependencies:
     "@nx/devkit": "npm:^19.0.6"
     nx: "npm:^19.0.6"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
-  checksum: 10c0/40295719d7bd3ee7bde256a68d3d2156fe5232dc3e0d0a6d44210ace310d72991c4531819143ac5c8d5771d7e625c633f23a2d50f14b3246a1988385c3ab3d75
+  checksum: 10c0/280914379cbb5cd090c1c074bec75ccaedb6a411cd109496f2be736f27e08d176fb80032ed7e20ebe485b1589ec3938bb1e14b48556cd3e89d1ce5b492d041be
   languageName: node
   linkType: hard
 
@@ -9792,7 +9792,7 @@ __metadata:
   resolution: "materialapp@workspace:."
   dependencies:
     "@angular-devkit/build-angular": "npm:^18.0.1"
-    "@angular-eslint/builder": "npm:^18.0.0-alpha.1"
+    "@angular-eslint/builder": "npm:^18.0.0-alpha.16"
     "@angular-eslint/eslint-plugin": "npm:^18.0.0-alpha.1"
     "@angular-eslint/eslint-plugin-template": "npm:18.0.0-alpha.1"
     "@angular-eslint/schematics": "npm:18.0.0-alpha.1"
