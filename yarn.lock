@@ -551,17 +551,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^18.0.2":
-  version: 18.0.2
-  resolution: "@angular/platform-browser-dynamic@npm:18.0.2"
+"@angular/platform-browser-dynamic@npm:^18.0.3":
+  version: 18.0.3
+  resolution: "@angular/platform-browser-dynamic@npm:18.0.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 18.0.2
-    "@angular/compiler": 18.0.2
-    "@angular/core": 18.0.2
-    "@angular/platform-browser": 18.0.2
-  checksum: 10c0/a360652b5f892a48029dee5713f187226dd7599b0d39119fa7d1cdaaa5a92b9c5734d3a3383bf381c693fed5552b1c8eea6939b8edc0b02342ec40d1315f0be7
+    "@angular/common": 18.0.3
+    "@angular/compiler": 18.0.3
+    "@angular/core": 18.0.3
+    "@angular/platform-browser": 18.0.3
+  checksum: 10c0/9b7e63601cd0a77b25e4d5dccee48020d9342b26323a8513d60daaeedf2aad1065ca8db7d5ed036089f92aa82eac941665dec43d10e1fb3c7608a1526d8fb675
   languageName: node
   linkType: hard
 
@@ -9808,7 +9808,7 @@ __metadata:
     "@angular/language-service": "npm:^18.0.2"
     "@angular/material": "npm:^18.0.2"
     "@angular/platform-browser": "npm:^18.0.2"
-    "@angular/platform-browser-dynamic": "npm:^18.0.2"
+    "@angular/platform-browser-dynamic": "npm:^18.0.3"
     "@angular/router": "npm:^18.0.2"
     "@types/jasmine": "npm:^5.1.4"
     "@types/jasminewd2": "npm:^2.0.13"
