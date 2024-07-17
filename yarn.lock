@@ -4505,7 +4505,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.14.10, @types/node@npm:^20.14.9":
+"@types/node@npm:^20.14.11":
+  version: 20.14.11
+  resolution: "@types/node@npm:20.14.11"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/5306becc0ff41d81b1e31524bd376e958d0741d1ce892dffd586b9ae0cb6553c62b0d62abd16da8bea6b9a2c17572d360450535d7c073794b0cef9cb4e39691e
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.14.9":
   version: 20.14.10
   resolution: "@types/node@npm:20.14.10"
   dependencies:
@@ -9530,7 +9539,7 @@ __metadata:
     "@angular/router": "npm:^18.1.0"
     "@types/jasmine": "npm:^5.1.4"
     "@types/jasminewd2": "npm:^2.0.13"
-    "@types/node": "npm:^20.14.10"
+    "@types/node": "npm:^20.14.11"
     "@typescript-eslint/eslint-plugin": "npm:^7.16.1"
     "@typescript-eslint/parser": "npm:^7.16.1"
     bootstrap: "npm:^5.3.3"
