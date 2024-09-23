@@ -381,9 +381,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cdk@npm:^18.2.4":
-  version: 18.2.4
-  resolution: "@angular/cdk@npm:18.2.4"
+"@angular/cdk@npm:^18.2.5":
+  version: 18.2.5
+  resolution: "@angular/cdk@npm:18.2.5"
   dependencies:
     parse5: "npm:^7.1.2"
     tslib: "npm:^2.3.0"
@@ -394,7 +394,7 @@ __metadata:
   dependenciesMeta:
     parse5:
       optional: true
-  checksum: 10c0/155b0c7b8ea90d3ec4de7d7a0eefab1f2e3a6d5a467738b749f1d3e7f9968291f7b32511242794a9c55d553a09079108a7b7d0fcb7f5d0b78cb46d1041299080
+  checksum: 10c0/d85873df366c740b76708ea23d0e43a66441253ac78714f1e2974a4efce5f323cdc7769587c895d198f682896403aad113d62e7f97514a5e543e2e408bd2c099
   languageName: node
   linkType: hard
 
@@ -8883,7 +8883,7 @@ __metadata:
     "@angular-eslint/schematics": "npm:18.3.1"
     "@angular-eslint/template-parser": "npm:18.3.1"
     "@angular/animations": "npm:^18.2.5"
-    "@angular/cdk": "npm:^18.2.4"
+    "@angular/cdk": "npm:^18.2.5"
     "@angular/cli": "npm:^18.2.5"
     "@angular/common": "npm:^18.2.5"
     "@angular/compiler": "npm:^18.2.5"
