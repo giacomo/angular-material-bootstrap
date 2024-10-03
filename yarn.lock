@@ -465,17 +465,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^18.2.6":
-  version: 18.2.6
-  resolution: "@angular/compiler@npm:18.2.6"
+"@angular/compiler@npm:^18.2.7":
+  version: 18.2.7
+  resolution: "@angular/compiler@npm:18.2.7"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 18.2.6
+    "@angular/core": 18.2.7
   peerDependenciesMeta:
     "@angular/core":
       optional: true
-  checksum: 10c0/9afd029eaedf1f547c531a82ed6db64384b520fb06177eeb410d3f8ae65501ad8ead01e265b47523267f5745d580c382f0365480ea2ef66f81c0ec5f825b4250
+  checksum: 10c0/87312d07cd8f0506903bc5e98ce64cbecb6a158b0e9799343aa44e6dc2d3f92498d65571863412dde4a83c5e1eae150346992dfb050b8b6348910634a16ba46a
   languageName: node
   linkType: hard
 
@@ -8757,7 +8757,7 @@ __metadata:
     "@angular/cdk": "npm:^18.2.6"
     "@angular/cli": "npm:^18.2.7"
     "@angular/common": "npm:^18.2.6"
-    "@angular/compiler": "npm:^18.2.6"
+    "@angular/compiler": "npm:^18.2.7"
     "@angular/compiler-cli": "npm:^18.2.6"
     "@angular/core": "npm:^18.2.6"
     "@angular/forms": "npm:^18.2.6"
