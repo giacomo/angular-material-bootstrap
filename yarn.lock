@@ -310,14 +310,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^18.2.7":
-  version: 18.2.7
-  resolution: "@angular/animations@npm:18.2.7"
+"@angular/animations@npm:^18.2.8":
+  version: 18.2.8
+  resolution: "@angular/animations@npm:18.2.8"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/core": 18.2.7
-  checksum: 10c0/d36b955bc507c344f2b6e01000950a85c2c9160fe15cdb02f72e742da6a7510bb0d5730bbc14cefe76420a4a31845b2e4aaa54a9340221b8ca731368751f259c
+    "@angular/core": 18.2.8
+  checksum: 10c0/7cd56f1c7a9c3c6d7c700422da31a150af03af27c26ed0616e4d04ba5a6ecc03d3f7180ebd242cbd49da2957e33064d83cbdd9ecb162f34132180382573a0f01
   languageName: node
   linkType: hard
 
@@ -8785,7 +8785,7 @@ __metadata:
     "@angular-eslint/eslint-plugin-template": "npm:18.3.1"
     "@angular-eslint/schematics": "npm:18.3.1"
     "@angular-eslint/template-parser": "npm:18.3.1"
-    "@angular/animations": "npm:^18.2.7"
+    "@angular/animations": "npm:^18.2.8"
     "@angular/cdk": "npm:^18.2.8"
     "@angular/cli": "npm:^18.2.8"
     "@angular/common": "npm:^18.2.7"
