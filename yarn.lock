@@ -443,9 +443,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^18.2.9":
-  version: 18.2.9
-  resolution: "@angular/compiler-cli@npm:18.2.9"
+"@angular/compiler-cli@npm:^18.2.10":
+  version: 18.2.10
+  resolution: "@angular/compiler-cli@npm:18.2.10"
   dependencies:
     "@babel/core": "npm:7.25.2"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -456,13 +456,13 @@ __metadata:
     tslib: "npm:^2.3.0"
     yargs: "npm:^17.2.1"
   peerDependencies:
-    "@angular/compiler": 18.2.9
+    "@angular/compiler": 18.2.10
     typescript: ">=5.4 <5.6"
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
     ngcc: bundles/ngcc/index.js
-  checksum: 10c0/d13958baa0f08e41cd6658719ebff8b848a5f57b3f8c91eb9b7813fae6b2cb632d610194e50687547aeca540e24a76bd7d641ff47fac4bae43b3ed7592c4c880
+  checksum: 10c0/9f844191aa8050233733897fac2addcfb2bd6da757c48ffa81e26bce2f310ca909ec47e48943fa0cbe161a08247e530f005646a62cc0ef9c0e1ea3fb17ca3ff1
   languageName: node
   linkType: hard
 
@@ -8810,7 +8810,7 @@ __metadata:
     "@angular/cli": "npm:^18.2.10"
     "@angular/common": "npm:^18.2.9"
     "@angular/compiler": "npm:^18.2.9"
-    "@angular/compiler-cli": "npm:^18.2.9"
+    "@angular/compiler-cli": "npm:^18.2.10"
     "@angular/core": "npm:^18.2.9"
     "@angular/forms": "npm:^18.2.9"
     "@angular/language-service": "npm:^18.2.9"
