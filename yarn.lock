@@ -32,7 +32,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/architect@npm:0.1900.2":
+"@angular-devkit/architect@npm:0.1900.2, @angular-devkit/architect@npm:>= 0.1900.0 < 0.2000.0":
   version: 0.1900.2
   resolution: "@angular-devkit/architect@npm:0.1900.2"
   dependencies:
@@ -175,7 +175,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/core@npm:19.0.2":
+"@angular-devkit/core@npm:19.0.2, @angular-devkit/core@npm:>= 19.0.0 < 20.0.0":
   version: 19.0.2
   resolution: "@angular-devkit/core@npm:19.0.2"
   dependencies:
@@ -217,13 +217,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/builder@npm:^18.4.2":
-  version: 18.4.2
-  resolution: "@angular-eslint/builder@npm:18.4.2"
+"@angular-eslint/builder@npm:^19.0.0":
+  version: 19.0.0
+  resolution: "@angular-eslint/builder@npm:19.0.0"
+  dependencies:
+    "@angular-devkit/architect": "npm:>= 0.1900.0 < 0.2000.0"
+    "@angular-devkit/core": "npm:>= 19.0.0 < 20.0.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
-  checksum: 10c0/537a51440f1121c2c000748b39aecbcc6db78af75dff22730e09c05834ddd984cc2949727f06b6e3b60a5899454c1b303815fe5f83823c1cfed390aea74f5ace
+  checksum: 10c0/b12422265dfee62f6f435f9953ccf6281d856139b1c05abe782cd6c012fadb6d433602efd0bd47689838c9a9ebc562594540c2c68d64ea3ee9acb155b2bfc954
   languageName: node
   linkType: hard
 
@@ -9016,7 +9019,7 @@ __metadata:
   resolution: "materialapp@workspace:."
   dependencies:
     "@angular-devkit/build-angular": "npm:^19.0.2"
-    "@angular-eslint/builder": "npm:^18.4.2"
+    "@angular-eslint/builder": "npm:^19.0.0"
     "@angular-eslint/eslint-plugin": "npm:^18.4.2"
     "@angular-eslint/eslint-plugin-template": "npm:18.4.2"
     "@angular-eslint/schematics": "npm:18.4.2"
