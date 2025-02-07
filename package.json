@@ -19,7 +19,7 @@
     "@angular/forms": "^19.1.4",
     "@angular/material": "^19.1.2",
     "@angular/platform-browser": "^19.1.4",
-    "@angular/platform-browser-dynamic": "^19.1.4",
+    "@angular/platform-browser-dynamic": "^19.1.5",
     "@angular/router": "^19.1.4",
     "bootstrap": "^5.3.3",
     "lodash": "^4.17.21",
