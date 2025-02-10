@@ -271,6 +271,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-eslint/bundled-angular-compiler@npm:19.1.0":
+  version: 19.1.0
+  resolution: "@angular-eslint/bundled-angular-compiler@npm:19.1.0"
+  checksum: 10c0/d4671c20d602c6423d2498334265a21e7c5d58fe37826c01d7a39b9e4cc8c6c023359bc95d1474110d29fac7a03a80104e6178346904553127161087d7275547
+  languageName: node
+  linkType: hard
+
 "@angular-eslint/eslint-plugin-template@npm:19.0.2":
   version: 19.0.2
   resolution: "@angular-eslint/eslint-plugin-template@npm:19.0.2"
@@ -285,6 +292,23 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
   checksum: 10c0/54d35c7f83db6ed40c9f51111dda0238ac3aed0c30d4de4f882f0499a16251565005bf15e365bf098fe8c61301dbcca13f3e8d51fbfbbf57d0eaa46b960a80b2
+  languageName: node
+  linkType: hard
+
+"@angular-eslint/eslint-plugin-template@npm:19.1.0":
+  version: 19.1.0
+  resolution: "@angular-eslint/eslint-plugin-template@npm:19.1.0"
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler": "npm:19.1.0"
+    "@angular-eslint/utils": "npm:19.1.0"
+    aria-query: "npm:5.3.2"
+    axobject-query: "npm:4.1.0"
+  peerDependencies:
+    "@typescript-eslint/types": ^7.11.0 || ^8.0.0
+    "@typescript-eslint/utils": ^7.11.0 || ^8.0.0
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: "*"
+  checksum: 10c0/6ed7ad3b9d78158795edce4d26644885e1563dd5dc2e99428fb4514d3055a541e3883159b535ec51c4f695aa198fed4e44981e048f20dc2d99d9924008bcf6ef
   languageName: node
   linkType: hard
 
@@ -340,6 +364,19 @@ __metadata:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
   checksum: 10c0/e1ad0104259bdead95a9923aee831aa2b0d66d8cb4924fb5f8c19f9660ffa79241d93f6bcc4ab75b39682a7895fcd46f172d751230503f0887ea0071f62967fa
+  languageName: node
+  linkType: hard
+
+"@angular-eslint/utils@npm:19.1.0":
+  version: 19.1.0
+  resolution: "@angular-eslint/utils@npm:19.1.0"
+  dependencies:
+    "@angular-eslint/bundled-angular-compiler": "npm:19.1.0"
+  peerDependencies:
+    "@typescript-eslint/utils": ^7.11.0 || ^8.0.0
+    eslint: ^8.57.0 || ^9.0.0
+    typescript: "*"
+  checksum: 10c0/91e0961029c50afdd36d43114c8008726a3d938744cd5ca6b8272fb811c03fbe4bb894405c7f0843671665bedfd4aeb9a51a2dd9ee679f060c21a88c6c43d1a3
   languageName: node
   linkType: hard
 
@@ -8900,7 +8937,7 @@ __metadata:
     "@angular-devkit/build-angular": "npm:^19.1.6"
     "@angular-eslint/builder": "npm:^19.0.2"
     "@angular-eslint/eslint-plugin": "npm:^19.0.2"
-    "@angular-eslint/eslint-plugin-template": "npm:19.0.2"
+    "@angular-eslint/eslint-plugin-template": "npm:19.1.0"
     "@angular-eslint/schematics": "npm:19.0.2"
     "@angular-eslint/template-parser": "npm:19.0.2"
     "@angular/animations": "npm:^19.1.5"
