@@ -42,6 +42,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/architect@npm:0.1902.2":
+  version: 0.1902.2
+  resolution: "@angular-devkit/architect@npm:0.1902.2"
+  dependencies:
+    "@angular-devkit/core": "npm:19.2.2"
+    rxjs: "npm:7.8.1"
+  checksum: 10c0/7c630692d69fe1c3157d44b4736ccaaeee53e1c4810b88c4e02d017752cf6021fc34c4e83ed2a8b5361eef59748449cf6e31f5793fe47c74e69cf911782d2931
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/architect@npm:>= 0.1900.0 < 0.2000.0":
   version: 0.1900.4
   resolution: "@angular-devkit/architect@npm:0.1900.4"
@@ -220,16 +230,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/schematics@npm:19.2.1":
-  version: 19.2.1
-  resolution: "@angular-devkit/schematics@npm:19.2.1"
+"@angular-devkit/core@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@angular-devkit/core@npm:19.2.2"
   dependencies:
-    "@angular-devkit/core": "npm:19.2.1"
+    ajv: "npm:8.17.1"
+    ajv-formats: "npm:3.0.1"
+    jsonc-parser: "npm:3.3.1"
+    picomatch: "npm:4.0.2"
+    rxjs: "npm:7.8.1"
+    source-map: "npm:0.7.4"
+  peerDependencies:
+    chokidar: ^4.0.0
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  checksum: 10c0/dc7527030177058d832ec30ebced707686fce1e9676a534414aec536379f6acfc664aadec20b96f16ec86b6108ce200b74e4dea0d5d2ea1d00b6b3d75c67fc82
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@angular-devkit/schematics@npm:19.2.2"
+  dependencies:
+    "@angular-devkit/core": "npm:19.2.2"
     jsonc-parser: "npm:3.3.1"
     magic-string: "npm:0.30.17"
     ora: "npm:5.4.1"
     rxjs: "npm:7.8.1"
-  checksum: 10c0/49f6f6b6f19802187b51a0c5f703992e67b06fa32435b8ef728adc6e2201ad96bdea0d74c01282baeafbe75ac4f72a6fefe49befea1ee358b1cc530f35aab236
+  checksum: 10c0/2e2141462478d2799030fa2ed7e2076945846a828c994d742518a9df8d4f5d18a10c883fc7503aecb240423a1c5b210e99a0a9af5f2c4ed979ecb619c56a6195
   languageName: node
   linkType: hard
 
@@ -441,16 +470,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:^19.2.1":
-  version: 19.2.1
-  resolution: "@angular/cli@npm:19.2.1"
+"@angular/cli@npm:^19.2.2":
+  version: 19.2.2
+  resolution: "@angular/cli@npm:19.2.2"
   dependencies:
-    "@angular-devkit/architect": "npm:0.1902.1"
-    "@angular-devkit/core": "npm:19.2.1"
-    "@angular-devkit/schematics": "npm:19.2.1"
+    "@angular-devkit/architect": "npm:0.1902.2"
+    "@angular-devkit/core": "npm:19.2.2"
+    "@angular-devkit/schematics": "npm:19.2.2"
     "@inquirer/prompts": "npm:7.3.2"
     "@listr2/prompt-adapter-inquirer": "npm:2.0.18"
-    "@schematics/angular": "npm:19.2.1"
+    "@schematics/angular": "npm:19.2.2"
     "@yarnpkg/lockfile": "npm:1.1.0"
     ini: "npm:5.0.0"
     jsonc-parser: "npm:3.3.1"
@@ -464,7 +493,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     ng: bin/ng.js
-  checksum: 10c0/7ff9e800df7139487b337f2ac9d43b468ce75b11620a943dcffdeabda1ea845d5c01ce76e207131d752d3e38e9603f3168d5c102bb94402f85109c26a4061465
+  checksum: 10c0/7d2378f3fac671b09ace5f1f1b3fcd273044393eb7b5fab532f2e6a18fccb6f8d0271952a0bbef79501b5fca52f67fdfc517c76be3d338e545de9f61da9e2290
   languageName: node
   linkType: hard
 
@@ -3834,14 +3863,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/angular@npm:19.2.1":
-  version: 19.2.1
-  resolution: "@schematics/angular@npm:19.2.1"
+"@schematics/angular@npm:19.2.2":
+  version: 19.2.2
+  resolution: "@schematics/angular@npm:19.2.2"
   dependencies:
-    "@angular-devkit/core": "npm:19.2.1"
-    "@angular-devkit/schematics": "npm:19.2.1"
+    "@angular-devkit/core": "npm:19.2.2"
+    "@angular-devkit/schematics": "npm:19.2.2"
     jsonc-parser: "npm:3.3.1"
-  checksum: 10c0/687dbc93165401b42982b9a301c5ff3b84b4948d505db02a5eec1c2d7815d78718ddc1465615851019158130b342a80a807f2e8fc8b5b9a59b00aa12a057090d
+  checksum: 10c0/46e162755d57c3a0f14f9db6f056917ce2f8ebf5819440a9dec5bb6993351f44a49cab4cb0722b7899139a4ac00c7d67c179312909c378fe76912f705d784c74
   languageName: node
   linkType: hard
 
@@ -9139,7 +9168,7 @@ __metadata:
     "@angular-eslint/template-parser": "npm:19.2.1"
     "@angular/animations": "npm:^19.2.1"
     "@angular/cdk": "npm:^19.2.2"
-    "@angular/cli": "npm:^19.2.1"
+    "@angular/cli": "npm:^19.2.2"
     "@angular/common": "npm:^19.2.1"
     "@angular/compiler": "npm:^19.2.1"
     "@angular/compiler-cli": "npm:^19.2.1"
