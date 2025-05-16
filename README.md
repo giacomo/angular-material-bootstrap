@@ -4,7 +4,7 @@
 ## Version
 | Package          | Version   |
 |------------------|-----------|
-| Angular/Material | 17+       |
+| Angular/Material | 19+       |
 | Bootstrap        | 5+        |
 | Angular Builder  | esbuilder |
 
