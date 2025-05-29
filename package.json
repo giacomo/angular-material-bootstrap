@@ -20,7 +20,7 @@
     "@angular/material": "^19.2.16",
     "@angular/platform-browser": "^19.2.11",
     "@angular/platform-browser-dynamic": "^19.2.11",
-    "@angular/router": "^19.2.11",
+    "@angular/router": "^20.0.0",
     "bootstrap": "^5.3.6",
     "lodash": "^4.17.21",
     "rxjs": "^7.8.2",

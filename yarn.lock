@@ -589,17 +589,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^19.2.11":
-  version: 19.2.11
-  resolution: "@angular/router@npm:19.2.11"
+"@angular/router@npm:^20.0.0":
+  version: 20.0.0
+  resolution: "@angular/router@npm:20.0.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 19.2.11
-    "@angular/core": 19.2.11
-    "@angular/platform-browser": 19.2.11
+    "@angular/common": 20.0.0
+    "@angular/core": 20.0.0
+    "@angular/platform-browser": 20.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/aa31f48f727772e43b60c0bdea1623e7f7fd1c73865fe584a16d1a9d954d298e441fa28c21375c3dc2878fb3395de72da5ad1bdebfc31b40bd55b3e0bcc56d22
+  checksum: 10c0/1d5291369f5e4784905a716dbaff2b7a458afcbc6cfcec65fda3fa050082aa68f83899ee45a54137dd0c8f9f8c82ea86f6613e0b0648467a627b5a3d04f2bb75
   languageName: node
   linkType: hard
 
@@ -9495,7 +9495,7 @@ __metadata:
     "@angular/material": "npm:^19.2.16"
     "@angular/platform-browser": "npm:^19.2.11"
     "@angular/platform-browser-dynamic": "npm:^19.2.11"
-    "@angular/router": "npm:^19.2.11"
+    "@angular/router": "npm:^20.0.0"
     "@types/jasmine": "npm:^5.1.8"
     "@types/jasminewd2": "npm:^2.0.13"
     "@types/node": "npm:^22.15.18"
