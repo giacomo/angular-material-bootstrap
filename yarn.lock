@@ -196,6 +196,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/architect@npm:0.2003.1":
+  version: 0.2003.1
+  resolution: "@angular-devkit/architect@npm:0.2003.1"
+  dependencies:
+    "@angular-devkit/core": "npm:20.3.1"
+    rxjs: "npm:7.8.2"
+  checksum: 10c0/2266e88706cd375470ef5029993cdd19448f094b52cc592c876b3464c3001e591118e258ce0fdcd6a62ea93c7c9d40934500b3059b2d4a320a9811325f080264
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/architect@npm:>= 0.2000.0 < 0.2100.0":
   version: 0.2000.1
   resolution: "@angular-devkit/architect@npm:0.2000.1"
@@ -369,16 +379,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/schematics@npm:20.3.0":
-  version: 20.3.0
-  resolution: "@angular-devkit/schematics@npm:20.3.0"
+"@angular-devkit/core@npm:20.3.1":
+  version: 20.3.1
+  resolution: "@angular-devkit/core@npm:20.3.1"
   dependencies:
-    "@angular-devkit/core": "npm:20.3.0"
+    ajv: "npm:8.17.1"
+    ajv-formats: "npm:3.0.1"
+    jsonc-parser: "npm:3.3.1"
+    picomatch: "npm:4.0.3"
+    rxjs: "npm:7.8.2"
+    source-map: "npm:0.7.6"
+  peerDependencies:
+    chokidar: ^4.0.0
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  checksum: 10c0/0e62b03495bee01e9ce67e3e8262e98fbd00d6e7c71609300f2a38992ff1d410619a0c2fa7a3a7ea64ee72172fd8d13f9229fa5568547af739cf68cb64540b40
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:20.3.1":
+  version: 20.3.1
+  resolution: "@angular-devkit/schematics@npm:20.3.1"
+  dependencies:
+    "@angular-devkit/core": "npm:20.3.1"
     jsonc-parser: "npm:3.3.1"
     magic-string: "npm:0.30.17"
     ora: "npm:8.2.0"
     rxjs: "npm:7.8.2"
-  checksum: 10c0/80c6437fca8a8d7f160c0db69ca5b99e4e3ea50e42ffe8ea4e2630af3d261b250af4a5274d7209ff1fe05cd43641c87fa97874cb448d8826e6937b7d6e6b6aad
+  checksum: 10c0/a93ff40d2d96edb88f9ca742d64a6776dffa63a14ef8a492012f4f661bae719a51865305653deaefb7d392e822089e59f672d00334f5d1b01247befd15818564
   languageName: node
   linkType: hard
 
@@ -594,17 +623,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:^20.3.0":
-  version: 20.3.0
-  resolution: "@angular/cli@npm:20.3.0"
+"@angular/cli@npm:^20.3.1":
+  version: 20.3.1
+  resolution: "@angular/cli@npm:20.3.1"
   dependencies:
-    "@angular-devkit/architect": "npm:0.2003.0"
-    "@angular-devkit/core": "npm:20.3.0"
-    "@angular-devkit/schematics": "npm:20.3.0"
+    "@angular-devkit/architect": "npm:0.2003.1"
+    "@angular-devkit/core": "npm:20.3.1"
+    "@angular-devkit/schematics": "npm:20.3.1"
     "@inquirer/prompts": "npm:7.8.2"
     "@listr2/prompt-adapter-inquirer": "npm:3.0.1"
     "@modelcontextprotocol/sdk": "npm:1.17.3"
-    "@schematics/angular": "npm:20.3.0"
+    "@schematics/angular": "npm:20.3.1"
     "@yarnpkg/lockfile": "npm:1.1.0"
     algoliasearch: "npm:5.35.0"
     ini: "npm:5.0.0"
@@ -618,7 +647,7 @@ __metadata:
     zod: "npm:3.25.76"
   bin:
     ng: bin/ng.js
-  checksum: 10c0/e68105fcf529bdd95e9b86b56754c46e2ec3aa44db07b836682bc19fff6311985bfb91e194b63c50afefb525373d90babd0c08d703d063a9f55006c039714bb0
+  checksum: 10c0/c128488d5211de3b1639b79fb12edffca2b82a4566bca406cbe95c180e4329ae983dcf619257b7971822d05e2e6c320245020f075fea7667f6155da686899201
   languageName: node
   linkType: hard
 
@@ -4273,14 +4302,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/angular@npm:20.3.0":
-  version: 20.3.0
-  resolution: "@schematics/angular@npm:20.3.0"
+"@schematics/angular@npm:20.3.1":
+  version: 20.3.1
+  resolution: "@schematics/angular@npm:20.3.1"
   dependencies:
-    "@angular-devkit/core": "npm:20.3.0"
-    "@angular-devkit/schematics": "npm:20.3.0"
+    "@angular-devkit/core": "npm:20.3.1"
+    "@angular-devkit/schematics": "npm:20.3.1"
     jsonc-parser: "npm:3.3.1"
-  checksum: 10c0/bb21f59122acb972ccc3cb7d8e50e3acd67921b4a28eba67ffde8a0f1dd5b4f2d3c4ffd4a87233d831b84944dd4fcc2b3c9b3698d5af832517d45a75f4cae37d
+  checksum: 10c0/3ca8d8bea3a9304ab4ee3929a6d0a35cfc0ce093941df21d3117537a5bf0d8194437695c99ec25c4541f7d4a97a75b6edb275de19a53f88fd06896ca019bfa87
   languageName: node
   linkType: hard
 
@@ -9758,7 +9787,7 @@ __metadata:
     "@angular-eslint/template-parser": "npm:20.2.0"
     "@angular/animations": "npm:^20.3.0"
     "@angular/cdk": "npm:^20.2.2"
-    "@angular/cli": "npm:^20.3.0"
+    "@angular/cli": "npm:^20.3.1"
     "@angular/common": "npm:^20.3.0"
     "@angular/compiler": "npm:^20.3.0"
     "@angular/compiler-cli": "npm:^20.3.0"
