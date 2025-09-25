@@ -609,13 +609,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^20.3.1":
-  version: 20.3.1
-  resolution: "@angular/core@npm:20.3.1"
+"@angular/core@npm:^20.3.2":
+  version: 20.3.2
+  resolution: "@angular/core@npm:20.3.2"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/compiler": 20.3.1
+    "@angular/compiler": 20.3.2
     rxjs: ^6.5.3 || ^7.4.0
     zone.js: ~0.15.0
   peerDependenciesMeta:
@@ -623,7 +623,7 @@ __metadata:
       optional: true
     zone.js:
       optional: true
-  checksum: 10c0/f75a2b7a0ed50eee520906cace85d0dc0052cf717c3f9d3b044d3a4f0f628c1fa74ac23be40cbdae589c6465982af704d0ff8642f219c92138c72a4328f342ae
+  checksum: 10c0/7eac9f334ed1a6927e031cbb099eda471f55c527c7546cc920885031c123594ab9ac36f253c8eb77f68b0b19ca6efd2b722d6aa45ab158ce4b19869e2f9f823e
   languageName: node
   linkType: hard
 
@@ -8486,7 +8486,7 @@ __metadata:
     "@angular/common": "npm:^20.3.1"
     "@angular/compiler": "npm:^20.3.1"
     "@angular/compiler-cli": "npm:^20.3.1"
-    "@angular/core": "npm:^20.3.1"
+    "@angular/core": "npm:^20.3.2"
     "@angular/forms": "npm:^20.3.1"
     "@angular/language-service": "npm:^20.3.1"
     "@angular/material": "npm:^20.2.4"
