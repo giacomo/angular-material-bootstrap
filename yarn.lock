@@ -648,19 +648,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/material@npm:^20.2.4":
-  version: 20.2.4
-  resolution: "@angular/material@npm:20.2.4"
+"@angular/material@npm:^20.2.5":
+  version: 20.2.5
+  resolution: "@angular/material@npm:20.2.5"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/cdk": 20.2.4
+    "@angular/cdk": 20.2.5
     "@angular/common": ^20.0.0 || ^21.0.0
     "@angular/core": ^20.0.0 || ^21.0.0
     "@angular/forms": ^20.0.0 || ^21.0.0
     "@angular/platform-browser": ^20.0.0 || ^21.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/e727d3820d864b240e7afb39af175dcdb356caf083f736020b94c9383acf464dd5f09880f31cf2ddc2deee64bec65917fa95dddba1bd7de7a58d778e59121e1a
+  checksum: 10c0/3519672f76aa7431263ae3b01a654e97c6d288305bf5790767e8990c6bbe794a630d28b2f397aaa7c668886e3e6e225c5e50fb03fe1ccab22a03d290b1b35c37
   languageName: node
   linkType: hard
 
@@ -8489,7 +8489,7 @@ __metadata:
     "@angular/core": "npm:^20.3.1"
     "@angular/forms": "npm:^20.3.1"
     "@angular/language-service": "npm:^20.3.1"
-    "@angular/material": "npm:^20.2.4"
+    "@angular/material": "npm:^20.2.5"
     "@angular/platform-browser": "npm:^20.3.1"
     "@angular/platform-browser-dynamic": "npm:^20.3.1"
     "@angular/router": "npm:^20.3.1"
