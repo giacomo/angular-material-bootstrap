@@ -336,16 +336,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/builder@npm:^20.4.0":
-  version: 20.4.0
-  resolution: "@angular-eslint/builder@npm:20.4.0"
+"@angular-eslint/builder@npm:^20.5.0":
+  version: 20.5.0
+  resolution: "@angular-eslint/builder@npm:20.5.0"
   dependencies:
     "@angular-devkit/architect": "npm:>= 0.2000.0 < 0.2100.0"
     "@angular-devkit/core": "npm:>= 20.0.0 < 21.0.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
     typescript: "*"
-  checksum: 10c0/90cc1206306c74ec6e28d874b8b6ef59e2a142e9f9f6793b422f838c4359e98de7f86ccec07655b91081f86bc04a5c2bdcbf4cf6b55b3f9cbc55c94aa878a0c7
+  checksum: 10c0/b8087ea4fdecee594c7cb684aaa4374ec5d1fb49424d553db904d903b7348ae2d4b443deb976a8abd80a6c7bae4652871b219f05aabd2ef1164d953285821f61
   languageName: node
   linkType: hard
 
@@ -8083,7 +8083,7 @@ __metadata:
   resolution: "materialapp@workspace:."
   dependencies:
     "@angular-devkit/build-angular": "npm:^20.3.7"
-    "@angular-eslint/builder": "npm:^20.4.0"
+    "@angular-eslint/builder": "npm:^20.5.0"
     "@angular-eslint/eslint-plugin": "npm:^20.4.0"
     "@angular-eslint/eslint-plugin-template": "npm:20.4.0"
     "@angular-eslint/schematics": "npm:20.4.0"
