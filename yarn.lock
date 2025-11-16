@@ -3649,10 +3649,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:*, @types/jasmine@npm:^5.1.12":
+"@types/jasmine@npm:*":
   version: 5.1.12
   resolution: "@types/jasmine@npm:5.1.12"
   checksum: 10c0/707c4eabc01f1be06a580868e044f7ee1aa2abfe0e59cd344c93d3c71916b54233d2745d107ddfbb9afecaf6faebea1784dd9c0763c354e723aa8a5d8098c605
+  languageName: node
+  linkType: hard
+
+"@types/jasmine@npm:^5.1.13":
+  version: 5.1.13
+  resolution: "@types/jasmine@npm:5.1.13"
+  checksum: 10c0/f162b7949f44e1e68391711772e6e19ad8db77318dbff8068f79e06f9532956f4e762a814797a48abf3356786830cb23487623eb9bf1dd55624e21a1935bc09f
   languageName: node
   linkType: hard
 
@@ -3688,12 +3695,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=10.0.0, @types/node@npm:^24.10.0":
+"@types/node@npm:*, @types/node@npm:>=10.0.0":
   version: 24.10.0
   resolution: "@types/node@npm:24.10.0"
   dependencies:
     undici-types: "npm:~7.16.0"
   checksum: 10c0/f82ed7194e16f5590ef7afdc20c6d09068c76d50278b485ede8f0c5749683536e3064ffa8def8db76915196afb3724b854aa5723c64d6571b890b14492943b46
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^24.10.1":
+  version: 24.10.1
+  resolution: "@types/node@npm:24.10.1"
+  dependencies:
+    undici-types: "npm:~7.16.0"
+  checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
   languageName: node
   linkType: hard
 
@@ -8092,9 +8108,9 @@ __metadata:
     "@angular/platform-browser": "npm:^20.3.10"
     "@angular/platform-browser-dynamic": "npm:^20.3.10"
     "@angular/router": "npm:^20.3.10"
-    "@types/jasmine": "npm:^5.1.12"
+    "@types/jasmine": "npm:^5.1.13"
     "@types/jasminewd2": "npm:^2.0.13"
-    "@types/node": "npm:^24.10.0"
+    "@types/node": "npm:^24.10.1"
     "@typescript-eslint/eslint-plugin": "npm:^8.46.3"
     "@typescript-eslint/parser": "npm:^8.46.3"
     bootstrap: "npm:^5.3.8"
