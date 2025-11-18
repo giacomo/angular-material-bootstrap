@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^8.46.4",
     "@typescript-eslint/parser": "^8.46.4",
     "@typescript-eslint/types": "^8.46.4",
-    "@typescript-eslint/utils": "^8.46.4",
+    "@typescript-eslint/utils": "^8.47.0",
     "eslint": "^9.39.1",
     "jasmine-core": "^5.12.1",
     "jasmine-spec-reporter": "^7.0.0",
