@@ -736,17 +736,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^20.3.12":
-  version: 20.3.12
-  resolution: "@angular/router@npm:20.3.12"
+"@angular/router@npm:^21.0.0":
+  version: 21.0.0
+  resolution: "@angular/router@npm:21.0.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 20.3.12
-    "@angular/core": 20.3.12
-    "@angular/platform-browser": 20.3.12
+    "@angular/common": 21.0.0
+    "@angular/core": 21.0.0
+    "@angular/platform-browser": 21.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/e6b5170d359691e62365271d65102d1ffaf71365bd6ce353c5cef3117d77c8c97d5cbf4fe79a78e7b5b0ddc274166daa8621fe5d4bfbfd602518fd88d5f928ac
+  checksum: 10c0/8e365283229daebf82cbbce3c6184384651bd253682703eb15b59e4a9bf8d8a97c5ed7960ad87275f17491fa30404ddece0c7aba96e6c14703afc34163adf44d
   languageName: node
   linkType: hard
 
@@ -8156,7 +8156,7 @@ __metadata:
     "@angular/material": "npm:20.2.13"
     "@angular/platform-browser": "npm:^20.3.12"
     "@angular/platform-browser-dynamic": "npm:^20.3.12"
-    "@angular/router": "npm:^20.3.12"
+    "@angular/router": "npm:^21.0.0"
     "@popperjs/core": "npm:^2.11.8"
     "@types/jasmine": "npm:^5.1.13"
     "@types/jasminewd2": "npm:^2.0.13"
