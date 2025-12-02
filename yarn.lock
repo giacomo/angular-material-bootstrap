@@ -644,10 +644,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/language-service@npm:^21.0.1":
-  version: 21.0.1
-  resolution: "@angular/language-service@npm:21.0.1"
-  checksum: 10c0/eb079bce526d088237b0edda5d0f461cf18116aa007f50f6516dc24f3021dc216405d553fab885a6e62fd4032811fef7e0585091ef2689a00774955cfdb93895
+"@angular/language-service@npm:^21.0.2":
+  version: 21.0.2
+  resolution: "@angular/language-service@npm:21.0.2"
+  checksum: 10c0/cb8192880c79bab0ee18c1cf1259bfcb0be414cf8c032e085413427aabd17599f9eec4e5d379dae3877177029e7b737f26ce999a78d5870017c62034e3d15f4d
   languageName: node
   linkType: hard
 
@@ -8416,7 +8416,7 @@ __metadata:
     "@angular/compiler-cli": "npm:^21.0.1"
     "@angular/core": "npm:21.0.1"
     "@angular/forms": "npm:^21.0.1"
-    "@angular/language-service": "npm:^21.0.1"
+    "@angular/language-service": "npm:^21.0.2"
     "@angular/material": "npm:21.0.1"
     "@angular/platform-browser": "npm:^21.0.1"
     "@angular/platform-browser-dynamic": "npm:^21.0.1"
