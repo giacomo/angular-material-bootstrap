@@ -1,21 +1,19 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HomeComponent } from './home.component';
-import { CoreModule } from '../core/core.module';
+import { provideNoopAnimations } from '@angular/platform-browser/animations';
 
 describe('HomeComponent', () => {
     let component: HomeComponent;
     let fixture: ComponentFixture<HomeComponent>;
 
-    beforeEach(waitForAsync(() => {
-        TestBed.configureTestingModule({
-            declarations: [HomeComponent],
-            imports: [
-                CoreModule
+    beforeEach(async () => {
+        await TestBed.configureTestingModule({
+            imports: [HomeComponent],
+            providers: [
+                provideNoopAnimations()
             ]
-        })
-            .compileComponents();
-    }));
+        }).compileComponents();
+    });
 
     beforeEach(() => {
         fixture = TestBed.createComponent(HomeComponent);

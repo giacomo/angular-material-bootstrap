@@ -1,24 +1,47 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
-import { MatInputModule } from '@angular/material/input';
-import { MatTabsModule } from '@angular/material/tabs';
+import { 
+    MatCard, 
+    MatCardContent, 
+    MatCardHeader, 
+    MatCardTitle,
+    MatCardSubtitle,
+    MatCardActions 
+} from '@angular/material/card';
+import { MatIcon } from '@angular/material/icon';
+import { MatFormField, MatLabel, MatError } from '@angular/material/input';
+import { MatTab, MatTabGroup } from '@angular/material/tabs';
 
 @NgModule({
     declarations: [],
     imports: [
         CommonModule,
-        MatCardModule,
-        MatIconModule,
-        MatInputModule,
-        MatTabsModule,
+        MatCard,
+        MatCardContent,
+        MatCardHeader,
+        MatCardTitle,
+        MatCardSubtitle,
+        MatCardActions,
+        MatIcon,
+        MatFormField,
+        MatLabel,
+        MatError,
+        MatTab,
+        MatTabGroup,
     ],
     exports: [
-        MatCardModule,
-        MatIconModule,
-        MatInputModule,
-        MatTabsModule,
+        MatCard,
+        MatCardContent,
+        MatCardHeader,
+        MatCardTitle,
+        MatCardSubtitle,
+        MatCardActions,
+        MatIcon,
+        MatFormField,
+        MatLabel,
+        MatError,
+        MatTab,
+        MatTabGroup,
     ]
 })
 export class MaterialModule {
