@@ -1,59 +1,40 @@
-# AngularMaterialBootstrap2
+# Angular + Material + Bootstrap
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+
+## Version
+| Package          | Version |
+|------------------|---------|
+| Angular/Material | 21+     |
+| Bootstrap        | 5+      |
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+It combines the latest version of Angular Material and Bootstrap 5.
+Angular Material is a great UI component library but does not have some important features like a layout system, a CSS reset, and some CSS utilities.
+Fortunately we can very easily integrate those features from Bootstrap 4.
+
+This can be a good starting point for building Angular applications.
 
 ## Development server
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```bash
-ng generate component component-name
-```
+## Build
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-```bash
-ng e2e
-```
+## Further help
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
