@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { MatCardModule } from '@angular/material/card';
 
 import { Home } from './home';
 
@@ -8,7 +9,8 @@ describe('Home', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [Home]
+      declarations: [Home],
+      imports: [MatCardModule],
     })
     .compileComponents();
 
