@@ -43,7 +43,7 @@
     "@angular/compiler-cli": "^21.2.7",
     "@types/bootstrap": "^5.2.10",
     "jsdom": "^27.4.0",
-    "typescript": "~5.9.3",
+    "typescript": "5.9.2",
     "vitest": "^4.1.3"
   }
 }
