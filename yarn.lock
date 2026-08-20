@@ -172,9 +172,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cdk@npm:22.0.2":
-  version: 22.0.2
-  resolution: "@angular/cdk@npm:22.0.2"
+"@angular/cdk@npm:22.1.3":
+  version: 22.1.3
+  resolution: "@angular/cdk@npm:22.1.3"
   dependencies:
     parse5: "npm:^8.0.0"
     tslib: "npm:^2.3.0"
@@ -183,7 +183,7 @@ __metadata:
     "@angular/core": ^22.0.0 || ^23.0.0
     "@angular/platform-browser": ^22.0.0 || ^23.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/7e71da1a8b49fb8dea15b94712e081e09a3c3a1fed8704f2945940d14ec5c0ca89f6ac6e961cefeed0aae0060b2d466722ceda99665ae4edd40e8df3c86a52ae
+  checksum: 10c0/c5369d4978761df2703787c4cd026e0a30bf2f45d1ddc6ea6e752922cf3bb7a4367086ac0c88e785ad6220545ae813bfeefba3b709112cd38f4a2ec53b425ad5
   languageName: node
   linkType: hard
 
@@ -291,19 +291,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/material@npm:22.0.2":
-  version: 22.0.2
-  resolution: "@angular/material@npm:22.0.2"
+"@angular/material@npm:22.1.3":
+  version: 22.1.3
+  resolution: "@angular/material@npm:22.1.3"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/cdk": 22.0.2
+    "@angular/cdk": 22.1.3
     "@angular/common": ^22.0.0 || ^23.0.0
     "@angular/core": ^22.0.0 || ^23.0.0
     "@angular/forms": ^22.0.0 || ^23.0.0
     "@angular/platform-browser": ^22.0.0 || ^23.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/ad78dfa9def09476d3e43c673c53f0d58288695f07b1955111559a5f81a92ed94267271942625238e190075e300ac9554ccf7119f90c29e45cd2202c0c677890
+  checksum: 10c0/edabc77ec167f61aaf4b10283e3f318ff078332fdb19aa8c53a07fc9bcc92a22ea72c9f710f9851dae1f5d8940342c7499511604b6cf043160fc60b53e322e16
   languageName: node
   linkType: hard
 
@@ -2806,14 +2806,14 @@ __metadata:
   resolution: "angular-material-bootstrap2@workspace:."
   dependencies:
     "@angular/build": "npm:^22.0.4"
-    "@angular/cdk": "npm:22.0.2"
+    "@angular/cdk": "npm:22.1.3"
     "@angular/cli": "npm:^22.1.5"
     "@angular/common": "npm:^22.1.3"
     "@angular/compiler": "npm:^22.1.3"
     "@angular/compiler-cli": "npm:^22.1.3"
     "@angular/core": "npm:^22.1.3"
     "@angular/forms": "npm:^22.1.3"
-    "@angular/material": "npm:22.0.2"
+    "@angular/material": "npm:22.1.3"
     "@angular/platform-browser": "npm:^22.1.3"
     "@angular/router": "npm:^22.1.3"
     "@popperjs/core": "npm:^2.11.8"
